@@ -1,0 +1,40 @@
+
+.row{
+	display: flex;
+}
+.row div{
+	margin: 25px;
+	padding: 10px;
+	border: 1px solid;
+	border-color: #000;
+}
+
+.circle {
+  	height: 70px;
+  	width: 70px;
+  	background-color: #fff;
+  	border-radius: 50%;
+
+}
+.square1, .square2,.square3, .square4 {
+  	height: 70px;
+  	width: 70px;
+  	background-color: #fff;
+}
+.diamond{
+  	height: 70px;
+  	width: 70px;
+  	transform: rotate(45deg) skew(15deg,15deg);	
+}
+.blue{
+	background-color: blue;
+}
+.red{
+	background-color: red;
+}
+.green{
+	background-color: green;
+}
+.pink{
+	background-color: pink;
+}
